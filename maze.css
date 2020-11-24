@@ -16,24 +16,24 @@ p {
 .tile {
     width: 20px;
     height: 20px;
-    background-color: blueviolet;
+    background-color: white;
     display: inline-block;
     text-align: center;
 }
 
 .path {
-    background-color: blueviolet;
-    border: 1px darkgoldenrod solid;
+    background-color: dodgerblue;
+    border: 1px white solid;
 }
 .wall {
-    background-color: chartreuse;
-    border: 1px darkgoldenrod solid;
+    background-color: darkorange;
+    border: 1px white solid;
 }
 .start {
-    background-color: blueviolet;
-    border: 1px darkgoldenrod solid;
+    background-color: yellow;
+    border: 1px white solid;
 }
 .end {
-    background-color: blueviolet;
-    border: 1px darkgoldenrod solid;
+    background-color: yellow;
+    border: 1px white solid;
 }

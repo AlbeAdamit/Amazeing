@@ -43,7 +43,7 @@ let posX = 16;
 document.body.addEventListener("keydown", function(e){
     if(e.code === "ArrowRight"){
         if (document.querySelector("p > div:nth-child("+(posX+1)+")").classList.contains('end')) {
-            alert("Ah Ouais ouais ouais, Damso ouais")
+            alert("Bien joué Poto")
         }
         
        if(document.querySelector("p > div:nth-child("+(posX+1)+")").classList.contains('wall')) {console.log('hit the wall')}
