@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    width: calc(13 * 48px);
+    height: calc(11 * 48px);
+    flex-wrap: wrap;
+}
+div {
+    display: flex;
+    flex-direction: row;
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    display: inline-block;
+    text-align: center;
+}
+
+.path {
+    background-color: blueviolet;
+    border: 1px darkgoldenrod solid;
+}
+.wall {
+    background-color: chartreuse;
+    border: 1px darkgoldenrod solid;
+}
+.start {
+    background-color: blueviolet;
+    border: 1px darkgoldenrod solid;
+}
+.end {
+    background-color: blueviolet;
+    border: 1px darkgoldenrod solid;
+}
