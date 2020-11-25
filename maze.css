@@ -1,7 +1,5 @@
 main{
     display: flex;
-    width: calc(13 * 48px);
-    height: calc(11 * 48px);
     flex-wrap: wrap;
 }
 div {
@@ -11,6 +9,8 @@ div {
 p {
     display: flex;
     flex-wrap: wrap;
+    width: calc(13 * 48px);
+    height: calc(11 * 48px);
 }
 
 .tile {
@@ -22,18 +22,34 @@ p {
 }
 
 .path {
-    background-color: dodgerblue;
+    background-color: greenyellow;
     border: 1px white solid;
+    width : 46px;
+    height : 46px;
+    display :inline-block;
+    text-align : center;
 }
 .wall {
-    background-color: darkorange;
+    background-color: red;
     border: 1px white solid;
+    width : 46px;
+    height : 46px;
+    display :inline-block;
+    text-align : center;
 }
 .start {
-    background-color: yellow;
+    background-color: white;
     border: 1px white solid;
+    width : 46px;
+    height : 46px;
+    display :inline-block;
+    text-align : center;
 }
 .end {
     background-color: yellow;
     border: 1px white solid;
+    width : 46px;
+    height : 46px;
+    display :inline-block;
+    text-align : center;
 }
