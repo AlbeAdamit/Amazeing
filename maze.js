@@ -81,7 +81,7 @@ document.body.addEventListener("keydown", function (e) {
     if (document.querySelector("p > div:nth-child(" + (posX) + ")").classList.contains('end')) {
         window.setTimeout(
             function () {
-                alert("bien joué")
+                alert("C'est çaaaaa qu'on veuuuuuut!!!!!")
                 const level = document.createElement('script')
                 level.src = lvl
                 main.appendChild(level)
