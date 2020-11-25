@@ -22,7 +22,7 @@ p {
 }
 
 .path {
-    background-color: greenyellow;
+    background-color: darkorange;
     border: 1px white solid;
     width : 46px;
     height : 46px;
@@ -30,7 +30,7 @@ p {
     text-align : center;
 }
 .wall {
-    background-color: red;
+    background-color: dodgerblue;
     border: 1px white solid;
     width : 46px;
     height : 46px;
@@ -46,7 +46,7 @@ p {
     text-align : center;
 }
 .end {
-    background-color: yellow;
+    background-color: white;
     border: 1px white solid;
     width : 46px;
     height : 46px;

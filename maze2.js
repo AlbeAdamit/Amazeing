@@ -25,5 +25,6 @@ function maze2() {
     } document.querySelector("p > div:nth-child(26)").appendChild(player);
 }
     maze2()
+    lvl = 'maze3.js'
     x = 22
     posX = 26
